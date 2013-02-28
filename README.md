@@ -10,6 +10,7 @@ Prerequisites
 * install a jdk
 * install maven on the path
 * install git
+
     sudo apt-get install git
 
 Then
