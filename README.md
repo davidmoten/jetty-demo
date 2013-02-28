@@ -3,14 +3,14 @@ jetty-demo
 
 A demonstration webapp that can be started using mvn jetty:run
 
-Full directions for ubuntu
+Instructions
 ---------------------------
 
 Prerequisites
 * install a jdk
 * install maven on the path
 * install git
-sudo apt-get install git
+    sudo apt-get install git
 
 Then
 ```
@@ -22,6 +22,8 @@ git clone https://github.com/davidmoten/jetty-demo.git
 cd jetty-demo
 mvn clean jetty:run
 ```
+
+Go to http://localhost:8080 in a browser.
     
     
 
