@@ -8,7 +8,7 @@ Instructions
 
 Prerequisites
 * install a jdk
-* install maven on the path
+* install maven 3.0.4 or later on the path
 * install git
 
 ```
