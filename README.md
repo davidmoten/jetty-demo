@@ -10,17 +10,21 @@ Prerequisites
 * install a jdk
 * install maven on the path
 * install git
+
 ```
 sudo apt-get install git
 ```
 
-Then
+Then get the demo project
+
 ```
-#get the demo project
 cd <YOUR-WORKSPACE>
 git clone https://github.com/davidmoten/jetty-demo.git
+```
 
-#start it up
+and start it up
+
+```
 cd jetty-demo
 mvn clean jetty:run
 ```
