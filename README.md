@@ -23,7 +23,14 @@ cd jetty-demo
 mvn clean jetty:run
 ```
 
-Go to http://localhost:8080 in a browser.
+Go to [http://localhost:8080](http://localhost:8080) in a browser.
+
+Two things are demonstrated by this webapp:
+
+* a java servlet
+* a jsp page
+
+
     
     
 
