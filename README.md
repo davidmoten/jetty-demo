@@ -7,7 +7,7 @@ Instructions
 ---------------------------
 
 Prerequisites
-* install a jdk
+* install a jdk 1.6 or later
 * install maven 3.0.4 or later on the path
 * install git
 
@@ -15,7 +15,7 @@ Prerequisites
 sudo apt-get install git
 ```
 
-Then get the demo project
+Get the demo project
 
 ```
 cd <YOUR-WORKSPACE>
