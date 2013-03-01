@@ -66,6 +66,8 @@ Start eclipse and import your project:
 
 There it is, with luck, ready to muck around with as you please.
 
+If ''maven jetty:run'' is running in the background you will notice that changes saved to the code are autodeployed every 3 seconds.
+
     
     
 
