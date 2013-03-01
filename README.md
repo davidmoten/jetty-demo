@@ -26,7 +26,7 @@ and start it up
 
 ```
 cd jetty-demo
-mvn clean jetty:run
+mvn jetty:run
 ```
 
 Go to [http://localhost:8080](http://localhost:8080) in a browser.
