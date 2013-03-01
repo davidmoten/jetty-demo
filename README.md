@@ -3,11 +3,11 @@ jetty-demo
 
 A demonstration webapp that can be started using mvn jetty:run
 
-Prerequisites
--------------------
+##Prerequisites
 Instructions are for deploying to ubuntu 12.04 or later
 
-* install a jdk 1.6 or later
+##Install java jdk
+jdk 1.6 or later is preferred. This installs jdk 7:
 
 ```
 sudo apt-get install python-software-properties
@@ -15,7 +15,9 @@ sudo apt-add-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
 ```
-* install maven 3.0.4 or later on the path
+
+##Install maven
+maven 3 is required:
 
 ```
 sudo add-apt-repository ppa:natecarlson/maven3
@@ -23,7 +25,8 @@ sudo apt-get update
 sudo apt-get install Maven3
 sudo ln -s /usr/share/maven3/bin/mvn /usr/bin/mvn
 ```
-* install git
+##Install git
+required to get the source from github:
 
 ```
 sudo apt-get install git
