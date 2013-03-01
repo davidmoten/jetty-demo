@@ -55,7 +55,7 @@ Go to [http://localhost:8080](http://localhost:8080) in a browser.
 
 Two things are demonstrated by this webapp:
 
-* a java servlet
+* a java servlet (3.0)
 * a jsp page
 
 Modify it
