@@ -1,7 +1,7 @@
 jetty-demo
 ==========
 
-A demonstration webapp that can be started using mvn jetty:run
+A demonstration webapp that can be started using mvn jetty:run. Complete instructions are given for setting up java, maven and git on ubuntu 12.04 or later.
 
 ##Prerequisites
 Instructions are for deploying to ubuntu 12.04 or later
