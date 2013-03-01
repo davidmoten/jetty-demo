@@ -11,13 +11,13 @@
 		<jetty.port>9191</jetty.port>
 		<jetty.stop.port>9999</jetty.stop.port>
 		<db.url>remote:localhost/logs</db.url>
-		<jetty.plugin.version>8.1.8.v20121106</jetty.plugin.version>
+		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
