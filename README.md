@@ -5,6 +5,8 @@ A demonstration webapp that can be started using mvn jetty:run
 
 Prerequisites
 -------------------
+Instructions are for deploying to ubunut 12.04 or later
+
 * install a jdk 1.6 or later
 
 ```
