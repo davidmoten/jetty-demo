@@ -3,6 +3,9 @@ jetty-demo
 
 A demonstration webapp that can be started using mvn jetty:run. Complete instructions are given for setting up java, maven and git on ubuntu 12.04 or later.
 
+##Audience
+This project was setup to demonstrate to someone that wants to write a web application but is unfamiliar with java how it can be done (pretty minimally).
+
 ##Prerequisites
 Instructions are for deploying to ubuntu 12.04 or later
 
