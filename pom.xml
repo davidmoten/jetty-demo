@@ -12,6 +12,7 @@
 		<jetty.stop.port>9999</jetty.stop.port>
 		<db.url>remote:localhost/logs</db.url>
 		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
+		<compiler.source.version>1.6</compiler.source.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -23,6 +24,17 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<verbose>true</verbose>
+					<fork>true</fork>
+					<source>${compiler.source.version}</source>
+					<target>${compiler.source.version}</target>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
