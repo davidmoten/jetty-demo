@@ -5,7 +5,7 @@
 	<artifactId>jetty-demo</artifactId>
 	<version>1.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
-	<description>Demonstrates webapp using jetty plugin</description>
+	<description>Demonstrates simple webapp using jetty plugin</description>
 	<packaging>war</packaging>
 	<properties>
 		<jetty.port>9191</jetty.port>
