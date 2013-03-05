@@ -13,7 +13,7 @@ In addition to the *simple* demo the following projects are placed under the *je
 This project was setup to demonstrate to someone unfamiliar with java that wants to write a web application how it can be done (pretty minimally).
 
 ##Prerequisites
-Instructions are for deploying to ubuntu 12.04 or later
+Instructions are here for setting up java, maven and git on ubuntu 12.04 or later.
 
 ###Install java jdk
 jdk 1.6 or later is preferred. This installs jdk 7:
@@ -71,12 +71,15 @@ To play with the webapp in Eclipse IDE download the latest *Eclipse IDE for Java
 
 Start eclipse and import your project:
 
-*File - Import - Maven - Existing Maven Projects - Next - browse into the project directory and hit OK*
+*File - Import - Maven - Existing Maven Projects - Next - browse into the jetty-demo/simple directory and hit OK*
 
 There it is, with luck, ready to muck around with as you please.
 
 If *maven jetty:run* is running you will notice that changes saved to the code are autodeployed every 3 seconds (configured in pom.xml).
 
+The other examples
+-------------------
+To try for example the *jersey* example do the same as above except in the *jetty-demo/jersey* directory.
     
     
 
