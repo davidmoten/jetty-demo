@@ -10,5 +10,6 @@
 	<modules>
 		<module>simple</module>
 		<module>jsf</module>
+		<module>jersey</module>
 	</modules>
 </project>
