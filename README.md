@@ -47,7 +47,7 @@ git clone https://github.com/davidmoten/jetty-demo.git
 and start it up
 
 ```
-cd jetty-demo
+cd jetty-demo/simple
 mvn jetty:run
 ```
 
