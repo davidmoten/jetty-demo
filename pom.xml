@@ -9,5 +9,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>simple</module>
+		<module>jsf</module>
 	</modules>
 </project>
