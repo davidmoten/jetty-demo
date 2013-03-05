@@ -8,9 +8,6 @@
 	<description>Demonstrates simple webapp using jetty plugin</description>
 	<packaging>war</packaging>
 	<properties>
-		<jetty.port>9191</jetty.port>
-		<jetty.stop.port>9999</jetty.stop.port>
-		<db.url>remote:localhost/logs</db.url>
 		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
 		<compiler.source.version>1.6</compiler.source.version>
 	</properties>
