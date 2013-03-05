@@ -1,7 +1,12 @@
 jetty-demo
 ==========
 
-A demonstration webapp that can be started using mvn jetty:run. Complete instructions are given for setting up java, maven and git on ubuntu 12.04 or later.
+A demonstration webapp *simple* that can be started using mvn jetty:run. Complete instructions are given for setting up java, maven and git on ubuntu 12.04 or later.
+
+In addition to the *simple* demo the following projects are placed under the *jetty-demo* project for the more advanced/curious audience:
+
+* *jsf* (Java Server Faces on jetty)
+* *jersey* (Jersey REST services on jetty)
 
 ##Audience
 This project was setup to demonstrate to someone unfamiliar with java that wants to write a web application how it can be done (pretty minimally).
