@@ -10,20 +10,36 @@
 	<properties>
 		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
 		<compiler.source.version>1.6</compiler.source.version>
+		<wicket.version>6.6.0</wicket.version>
 	</properties>
 	<dependencies>
 
+		<!-- WICKET DEPENDENCIES -->
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
-			<artifactId>wicket</artifactId>
-			<version>1.4.17</version>
+			<artifactId>wicket-core</artifactId>
+			<version>${wicket.version}</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-request</artifactId>
+			<version>${wicket.version}</version>
+		</dependency>
+		<!-- OPTIONAL DEPENDENCY <dependency> <groupId>org.apache.wicket</groupId> 
+			<artifactId>wicket-extensions</artifactId> <version>${wicket.version}</version> 
+			</dependency> -->
 
-		<!-- slf4j-log4j -->
+		<!-- LOGGING DEPENDENCIES - LOG4J -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.5.6</version>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
 		</dependency>
 
 	</dependencies>
@@ -50,6 +66,7 @@
 				<inherited>true</inherited>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
