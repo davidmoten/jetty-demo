@@ -1,35 +1,60 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.me</groupId>
-	<artifactId>simple</artifactId>
-	<version>1.0-SNAPSHOT</version>
-    <name>${project.artifactId}</name>
-	<description>Demonstrates simple webapp using jetty plugin</description>
+	<artifactId>wicket</artifactId>
 	<packaging>war</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>${project.artifactId}</name>
+	<url>http://maven.apache.org</url>
 	<properties>
 		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
 		<compiler.source.version>1.6</compiler.source.version>
 	</properties>
 	<dependencies>
+
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.0.1</version>
-			<scope>provided</scope>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket</artifactId>
+			<version>1.4.17</version>
 		</dependency>
+
+		<!-- slf4j-log4j -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.5.6</version>
+		</dependency>
+
 	</dependencies>
+
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+			<resource>
+				<filtering>false</filtering>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>*</include>
+				</includes>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+
 		<plugins>
 			<plugin>
+				<inherited>true</inherited>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.0</version>
 				<configuration>
-					<verbose>true</verbose>
-					<fork>true</fork>
-					<source>${compiler.source.version}</source>
-					<target>${compiler.source.version}</target>
+					<source>1.6</source>
+					<target>1.6</target>
+					<optimise>true</optimise>
+					<debug>true</debug>
 				</configuration>
 			</plugin>
 			<plugin>
