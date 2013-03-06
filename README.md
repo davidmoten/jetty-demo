@@ -8,6 +8,7 @@ In addition to the *simple* demo the following projects are placed under the *je
 * *jsf* (Java Server Faces on jetty)
 * *jersey* (Jersey REST services on jetty)
 * *wicket* (Wicket framework on jetty)
+* *click* (Apache Click framework on jetty)
 
 ##Audience
 This project was setup to demonstrate to someone unfamiliar with java that wants to write a web application how it can be done (pretty minimally).

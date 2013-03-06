@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Default Apache Click configuration file. 
+     For a complete Click application configuration you can use the following references:
+     User Guide  http://click.apache.org/docs/user-guide/htmlsingle/click-book.html#application-configuration
+     A complete Click application configuration example http://sabob.blogspot.com/2008/10/complete-click-application.html 
+-->
+<click-app> 
+    <!-- Automatically mapped Page package -->
+    <pages package="org.me"/>
+    <!-- Mode values include: [production], [profile], [development], [debug], [trace] -->
+    <mode value="debug"/>
+</click-app> 

@@ -11,5 +11,6 @@
 		<module>simple</module>
 		<module>jsf</module>
 		<module>jersey</module>
+		<module>click</module>
 	</modules>
 </project>
