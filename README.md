@@ -82,6 +82,9 @@ If *maven jetty:run* is running you will notice that changes saved to the code a
 The other examples
 -------------------
 To try for example the *jersey* example do the same as above except in the *jetty-demo/jersey* directory.
+
+Note that SSL is supported by the *wicket* and *spring* examples at
+    https://localhost:8443
     
     
 
