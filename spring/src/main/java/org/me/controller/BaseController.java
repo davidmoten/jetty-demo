@@ -1,4 +1,4 @@
-package com.mkyong.controller;
+package org.me.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/")
 public class BaseController {
 
-	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String welcome(ModelMap model) {
 
 		model.addAttribute("message",
@@ -21,7 +21,7 @@ public class BaseController {
 
 	}
 
-	@RequestMapping(value = "/welcome/{name}", method = RequestMethod.GET)
+	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
 	public String welcomeName(@PathVariable String name, ModelMap model) {
 
 		model.addAttribute("message", "Maven Web Project + Spring 3 MVC - "
