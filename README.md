@@ -85,7 +85,7 @@ To try for example the *jersey* example do the same as above except in the *jett
 
 Note that SSL is supported by the *wicket* and *spring* examples at
 
-    https://localhost:8443
+* [http://localhost:8443](http://localhost:8443)
     
     
 
