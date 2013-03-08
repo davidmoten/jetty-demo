@@ -33,7 +33,7 @@ maven 3 is required:
 ```
 sudo add-apt-repository ppa:natecarlson/maven3
 sudo apt-get update
-sudo apt-get install Maven3
+sudo apt-get install maven3
 sudo ln -s /usr/share/maven3/bin/mvn /usr/bin/mvn
 ```
 ###Install git
