@@ -22,7 +22,7 @@ jdk 1.6 or later is preferred. This installs jdk 7:
 
 ```
 sudo apt-get install python-software-properties
-sudo apt-add-repository ppa:webupd8team/java
+sudo apt-add-repository -y ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
 ```
@@ -31,7 +31,7 @@ sudo apt-get install oracle-java7-installer
 maven 3 is required:
 
 ```
-sudo add-apt-repository ppa:natecarlson/maven3
+sudo add-apt-repository -y ppa:natecarlson/maven3
 sudo apt-get update
 sudo apt-get install maven3
 sudo ln -s /usr/share/maven3/bin/mvn /usr/bin/mvn
