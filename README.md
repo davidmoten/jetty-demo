@@ -18,7 +18,7 @@ This project was setup to demonstrate to someone unfamiliar with java that wants
 Instructions are here for setting up java, maven and git on ubuntu 12.04 or later.
 
 ###Install java jdk
-jdk 1.6 or later is preferred. This installs jdk 7:
+jdk 1.6 or later is preferred. This installs jdk 1.7:
 
 ```
 sudo apt-get install python-software-properties
