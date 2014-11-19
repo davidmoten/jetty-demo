@@ -4,12 +4,14 @@
 	<groupId>org.me</groupId>
 	<artifactId>jersey</artifactId>
 	<version>1.0-SNAPSHOT</version>
-    <name>${project.artifactId}</name>
+	<name>${project.artifactId}</name>
 	<description>Demonstrates simple webapp using jetty plugin</description>
 	<packaging>war</packaging>
 	<properties>
 		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
+		<jetty.stop.port>8079</jetty.stop.port>
 		<compiler.source.version>1.6</compiler.source.version>
+		<jersey.version>2.13</jersey.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -18,19 +20,19 @@
 			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
- 
+
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-server</artifactId>
-			<version>2.13</version>
+			<version>${jersey.version}</version>
 		</dependency>
-		
-		 <dependency>
-      <groupId>org.glassfish.jersey.containers</groupId>
-      <artifactId>jersey-container-servlet-core</artifactId>
-      <version>2.13</version>
-    </dependency>
- 
+
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet-core</artifactId>
+			<version>${jersey.version}</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -56,16 +58,6 @@
 					<webAppConfig>
 						<contextPath>/</contextPath>
 					</webAppConfig>
-					<systemProperties>
-						<systemProperty>
-							<name>db.url</name>
-							<value>${db.url}</value>
-						</systemProperty>
-						<systemProperty>
-							<name>network.lockTimeout</name>
-							<value>${orientdb.network.lockTimeout}</value>
-						</systemProperty>
-					</systemProperties>
 				</configuration>
 			</plugin>
 		</plugins>
