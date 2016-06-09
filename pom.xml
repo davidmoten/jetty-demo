@@ -12,5 +12,6 @@
 		<module>jsf</module>
 		<module>jersey</module>
 		<module>click</module>
+                <module>spring</module>
 	</modules>
 </project>
