@@ -11,13 +11,13 @@ In addition to the *simple* demo the following projects are placed under the *je
 * *click* (Apache Click framework on jetty)
 * *spring* (Spring MVC on jetty)
 
-##Audience
+## Audience
 This project was setup to demonstrate to someone unfamiliar with java that wants to write a web application how it can be done (pretty minimally).
 
-##Prerequisites
+## Prerequisites
 Instructions are here for setting up java, maven and git on ubuntu 12.04 or later.
 
-###Install java jdk
+### Install java jdk
 jdk 1.6 or later is preferred. This installs jdk 1.7:
 
 ```
@@ -27,7 +27,7 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer
 ```
 
-###Install maven
+### Install maven
 maven 3 is required:
 
 ```
@@ -36,7 +36,7 @@ sudo apt-get update
 sudo apt-get install maven3
 sudo ln -s /usr/share/maven3/bin/mvn /usr/bin/mvn
 ```
-###Install git
+### Install git
 required to get the source from github:
 
 ```
