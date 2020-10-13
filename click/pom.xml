@@ -12,7 +12,7 @@
         <click.version>2.3.0</click.version>
         <servlet-api.version>[2.,)</servlet-api.version>
         <jetty.version>8.1.9.v20130131</jetty.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
     <dependencies>
         <dependency>
