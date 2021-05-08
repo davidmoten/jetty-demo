@@ -29,7 +29,7 @@
 		</license>
 	</licenses>
 	<properties>
-		<wicket.version>6.6.0</wicket.version>
+		<wicket.version>7.17.0</wicket.version>
 		<jetty.version>8.1.9.v20130131</jetty.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
