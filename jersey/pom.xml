@@ -11,7 +11,7 @@
 		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
 		<jetty.stop.port>8079</jetty.stop.port>
 		<compiler.source.version>1.6</compiler.source.version>
-		<jersey.version>2.13</jersey.version>
+		<jersey.version>3.0.4</jersey.version>
 	</properties>
 	<dependencies>
 		<dependency>
