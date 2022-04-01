@@ -10,7 +10,7 @@
 	<properties>
 		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
 		<compiler.source.version>1.6</compiler.source.version>
-		<jsf.version>2.1.20</jsf.version>
+		<jsf.version>2.2.20</jsf.version>
 	</properties>
 	<dependencies>
 		<dependency>
