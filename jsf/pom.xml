@@ -8,7 +8,7 @@
 	<description>Demonstrates simple webapp using jetty plugin</description>
 	<packaging>war</packaging>
 	<properties>
-		<jetty.plugin.version>8.1.9.v20130131</jetty.plugin.version>
+		<jetty.plugin.version>8.1.16.v20140903</jetty.plugin.version>
 		<compiler.source.version>1.6</compiler.source.version>
 		<jsf.version>2.2.20</jsf.version>
 	</properties>
