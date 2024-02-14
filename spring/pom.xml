@@ -10,7 +10,7 @@
         <spring.version>5.3.31</spring.version>
         <junit.version>4.13.2</junit.version>
         <jdk.version>1.8</jdk.version>
-        <jetty.version>9.4.53.v20231009</jetty.version>
+        <jetty.version>9.4.54.v20240208</jetty.version>
         <jetty.port>8080</jetty.port>
     </properties>
     <dependencies>
